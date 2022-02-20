@@ -1,0 +1,104 @@
+body{
+    background-color: #313845;
+}
+.card{
+
+}
+.main-area{
+    width:40%;
+    margin:8rem auto;
+    background-color: #fff;
+    display:flex;
+    border-radius:20px; 
+    overflow: hidden;
+    position: relative;
+}
+.main-area .left, .main-area .right{
+    width:50%;
+    padding:5px 10px;
+}
+.main-area .left{
+    background-image: url(./../img/bg.jpg);
+    box-sizing: border-box;
+    background-size: cover;
+    background-position: 30% 80%;
+    padding: 20px 15px;
+}
+.main-area .left .top h5{
+    margin: 0;
+    color: #fff;
+}
+.dayName{
+    font-size: 25px;
+}
+.countryName{
+    font-weight: normal;
+    padding-top: 5px;
+}
+.main-area .left .bottom{
+    position: absolute;
+    bottom:1rem;
+}
+.icon{
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    color:white;
+}
+.weather-icon{
+    font-size: 5rem;
+}
+.degree{
+    font-size: 2.4rem;
+    margin: 0;
+}
+.mood{
+    font-size: 20px;
+    margin: 0;
+}
+.main-area .right{
+    padding: 20px 15px;
+    background: #222831;
+    color:white;
+}
+.leftpara{
+    font-weight: 500;
+    padding-top: 3px;
+}
+.main-area .right .top div{
+    display: flex;
+    justify-content: space-between;
+}
+.main-area .right .top div p{
+    margin: 0;
+}
+.middle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3rem;
+}
+.main-area .right .bottom{
+    padding-top: 3rem;
+    width: 80%;
+    margin:0 auto;;
+}
+.searchBox,.searchBtn{
+    width: 100%;
+    padding:5px 10px;
+    border:1px solid #0bcccc;
+    font-size: 20px;
+    border-radius: 15px;
+    display: block;
+}
+.searchBtn{
+    margin: 8px 0;
+    width: 110%;
+    cursor: pointer;
+    background: linear-gradient(to right, #71E9F2,#5667E7);
+    color:white;
+    font-size: 20px;
+}
